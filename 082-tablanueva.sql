@@ -1,0 +1,1 @@
+CREATE TABLE `curso`.`pedidos` (`Identificador` INT(255) NOT NULL AUTO_INCREMENT , `idcliente` INT(255) NOT NULL , `idproducto` INT(255) NOT NULL , `fecha` VARCHAR(255) NOT NULL , `numeropedido` VARCHAR(255) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
