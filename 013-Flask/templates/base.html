@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="Stylesheel" href="estilo.css">
+        <style>
+            body{
+                background:rgb(220,220,220);
+            }
+            header,main,footer{
+                background:white;
+                padding:50px;
+                margin:auto;
+                width:80%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>El blog</h1>
+            <h2>De Jose Vicente</h2>
+            <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/sobremi/">Sobre mi</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contacto/">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            {% block contenido %}{% endblock %}
+        </main>
+        <footer>
+            (c)2023 Jose Vicente Carratala
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<h3>Formulario de contacto</h3>
+ <form action="/procesacontacto/" method="POST">
+    <input type="text" name="nombre" placeholder="Dime tu nombre">
+    <input type="email" name="email" placeholder="Dime tu email">
+    <textarea name="mensaje"></textarea>
+    <input type="submit">
+</form>
+
+{% endblock %}
+
