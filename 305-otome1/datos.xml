@@ -1,0 +1,33 @@
+<pantalla 
+          texto="El juego empieza" 
+          imagen="primeraimagen.jpg" 
+          pregunta="¿Quieres continuar el juego?"
+          >
+    <pantalla 
+              respuesta="si"
+              opcion="1"
+              imagen="escuela.jpg"
+              texto="Pues vamos allá Entras en la escuela"
+              pregunta="¿hacia donde vas?"
+              >
+        <pantalla 
+                  respuesta="hacia el aula de la derecha"
+                  opcion="1"
+                  ></pantalla>
+        <pantalla 
+                  respuesta="me siento en recepción"
+                  opcion="2"
+                  ></pantalla>
+        <pantalla 
+                  respuesta="hacia el pasillo de la izquierda"
+                  opcion="3"
+                  ></pantalla>
+    </pantalla>
+    <pantalla 
+              opcion="2" 
+              respuesta="no" 
+              texto="Bye bye"
+              ></pantalla>
+    
+</pantalla>
+

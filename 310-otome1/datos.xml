@@ -1,0 +1,60 @@
+<pantalla 
+          texto="El juego empieza" 
+          imagen="primeraimagen.jpg" 
+          pregunta="¿Quieres continuar el juego?"
+          >
+    <pantalla 
+              respuesta="si"
+              opcion="1"
+              imagen="escuela.jpg"
+              texto="Pues vamos allá Entras en la escuela"
+              pregunta="¿hacia donde vas?"
+              >
+        <pantalla 
+                  respuesta="hacia el aula de la derecha"
+                  texto="Ya estás en el aula de la derecha"
+                  pregunta="¿y ahora qué haces?"
+                  opcion="1"
+                  >
+                <pantalla 
+                      respuesta="hacia la izquierda"
+                      opcion="1"
+                      imagen="escuela.jpg"
+                      texto="Vas hacia la izquierda"
+                      pregunta="¿hacia donde vas ahora?"
+                      >
+                </pantalla>
+            <pantalla 
+                      respuesta="sigo recto"
+                      opcion="2"
+                      imagen="escuela.jpg"
+                      texto="Vas recto"
+                      pregunta="¿hacia donde vas ahora?"
+                      >
+                </pantalla>
+            <pantalla 
+                      respuesta="hacia la derecha"
+                      opcion="3"
+                      imagen="escuela.jpg"
+                      texto="Vas hacia la derecha"
+                      pregunta="¿hacia donde vas ahora?"
+                      >
+                </pantalla>
+        </pantalla>
+        <pantalla 
+                  respuesta="me siento en recepción"
+                  opcion="2"
+                  ></pantalla>
+        <pantalla 
+                  respuesta="hacia el pasillo de la izquierda"
+                  opcion="3"
+                  ></pantalla>
+    </pantalla>
+    <pantalla 
+              opcion="2" 
+              respuesta="no" 
+              texto="Bye bye"
+              ></pantalla>
+    
+</pantalla>
+
