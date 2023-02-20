@@ -1,0 +1,5 @@
+<pantalla>
+    <pregunta id="primera" pregunta="Primera pregunta"></pregunta>
+    <pregunta id="segunda" pregunta="Segunda pregunta"></pregunta>
+</pantalla>
+

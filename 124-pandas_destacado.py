@@ -35,8 +35,8 @@ for fila in registros.values:
     estrella[fila[6]] = estrella[fila[6]] + 1
     estrella[fila[7]] = estrella[fila[7]] + 1
     contador = contador + 1
-    if contador > 663:
-        break
+    #if contador > 663:
+        #break
 
 
 print(numero)

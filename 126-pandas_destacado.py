@@ -45,8 +45,12 @@ print(estrella)
 for i in range(1,51):
     print("El numero: "+str(i)+" ha salido "+str(numero[i]))
 
+print(numero)
+
 for i in range(1,51):
     print("LA estrella: "+str(i)+" ha salido "+str(estrella[i]))
+
+print(estrella)
 
 
 ##plt.bar(etiquetanumero,numero,label=etiquetanumero)
