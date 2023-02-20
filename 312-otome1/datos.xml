@@ -1,12 +1,12 @@
 <pantalla 
           texto="El juego empieza" 
-          imagen="primeraimagen.jpg" 
+          imagen="1.png" 
           pregunta="¿Quieres continuar el juego?"
           >
     <pantalla 
               respuesta="si"
               opcion="1"
-              imagen="escuela.jpg"
+              imagen="3.png"
               texto="Pues vamos allá Entras en la escuela"
               pregunta="¿hacia donde vas?"
               >
@@ -15,29 +15,30 @@
                   texto="Ya estás en el aula de la derecha"
                   pregunta="¿y ahora qué haces?"
                   opcion="1"
+                  imagen="4.png"
                   >
                 <pantalla 
                       respuesta="hacia la izquierda"
                       opcion="1"
-                      imagen="escuela.jpg"
+                      imagen="8.png"
                       texto="Vas hacia la izquierda"
-                      pregunta="¿hacia donde vas ahora?"
+                    pregunta="¿hacia donde vas ahora?"
                       >
                 </pantalla>
             <pantalla 
                       respuesta="sigo recto"
                       opcion="2"
-                      imagen="escuela.jpg"
                       texto="Vas recto"
                       pregunta="¿hacia donde vas ahora?"
+                      imagen="9.png"
                       >
                 </pantalla>
             <pantalla 
                       respuesta="hacia la derecha"
                       opcion="3"
-                      imagen="escuela.jpg"
                       texto="Vas hacia la derecha"
                       pregunta="¿hacia donde vas ahora?"
+                      imagen="10.png"
                       >
                 </pantalla>
         </pantalla>

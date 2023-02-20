@@ -45,8 +45,9 @@ def nodo(entrada):
     global texto
     global pregunta
     global botones
+    global imagen
     atributos = entrada.attrib
-    imagen = tk.PhotoImage(file = "fotos/1.png")
+    imagen = tk.PhotoImage(file = "fotos/"+atributos["imagen"])
     labelfoto = tk.Label(image=imagen)
     labelfoto.pack()
     texto = tk.Label(text=atributos['texto'])
@@ -57,13 +58,15 @@ def nodo(entrada):
     for hijo in entrada:
         botones.append("")
     contador = 0
+   
     for hijo in entrada:
         atributoshijo = hijo.attrib
         print("la respuesta que voy  a enviar es:"+atributoshijo["respuesta"])
         botones[contador] = tk.Button(text=atributoshijo["respuesta"],command=partial(iterar, entrada,atributoshijo["respuesta"]))
         botones[contador].pack()
         contador = contador + 1
+    
 
 
 nodo(raizxml)
-raiz.mainloop()
+
